@@ -8,6 +8,7 @@ from openpyxl import Workbook
 import datetime as dt
 
 import requests
+import botToken
 
 discord.MemberCacheFlags.all()
 intents = discord.Intents.default()
@@ -132,6 +133,6 @@ async def play_soundfile(ctx, file_name):
         else :
             await ctx.send("아직 봇이 말하고 있어요!")
 
-bot.run('OTU4ODk0NjMzNjU0NTgzMzU3.YkT-OA.tF4V4CutQMMm6_QtqFCE7F4BOMg')
+bot.run(TtsToken)
 
 #bot.run('OTU4ODk0NjMzNjU0NTgzMzU3.YkT-OA.tF4V4CutQMMm6_QtqFCE7F4BOMg') #토큰

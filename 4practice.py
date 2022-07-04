@@ -7,6 +7,7 @@ from openpyxl import Workbook
 import datetime as dt
 
 import requests
+import botToken
 
 discord.MemberCacheFlags.all()
 intents = discord.Intents.default()
@@ -355,4 +356,4 @@ async def checkMission(ctx):
 async def passcommand(ctx):
     pass
 
-bot.run('OTQzMzU3MjcyODQxNjcwNjk3.Ygx37A.KYa6pk38l3xzN0mc4tT3IvXdCCE') #토큰
+bot.run(botToken.practiceToken) #토큰
