@@ -356,4 +356,6 @@ async def checkMission(ctx):
 async def passcommand(ctx):
     pass
 
+#여기 추가됐지롱
+
 bot.run(botToken.practiceToken) #토큰
